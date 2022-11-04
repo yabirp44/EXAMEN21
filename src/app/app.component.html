@@ -1,0 +1,52 @@
+<router-outlet>
+  <body>
+    <link rel="stylesheet" href="app.component.css">
+    <header>
+      <div class="Titulofrm">
+        <h1 class = "Titulo">FORMULARIO DE REPORTES</h1>
+      </div>
+    </header>
+    <main>
+      <div class="Contenidofrm">
+        <p>
+          <img class="Imagen" src="https://th.bing.com/th/id/R.29a387beb5e2ca03cf595aab7b8acb59?rik=%2fmWOzmrvt%2fguEw&riu=http%3a%2f%2fwww.dimetutraba.pe%2fwp-content%2fuploads%2f2019%2f04%2freclamos-peru-1024x971.png&ehk=PlQkTL%2fYPOrH9mXif%2fa4K5qg8HdpnP1w2CvQWyDisQs%3d&risl=&pid=ImgRaw&r=0" /> 
+        </p>
+        <div class="Derecho">
+          <form action="" method="get" class="form-example">
+  
+            <div class="form-example">
+              <label for="name">CODIGO DE RECLAMO: </label>
+              <input type="integer" name="name" id="Cod_Reclamos" required>
+            </div>
+  
+            <div class="form-example">
+              <label for="name">FECHA DE RECLAMO: </label>
+              <input type="datetime" name="name" id="Fecha_Reclamo" required>
+            </div>
+  
+            <div class="form-example">
+              <label for="email">MOTIVO: </label>
+              <input type="varchar" name="email" id="Motivo_Reclamo" required>
+            </div>
+  
+            <div class="form-example">
+              <label for="name">CODIGO DE GERENTE: </label>
+              <input type="integer" name="name" id="Cod_Gerente" required>
+            </div>
+  
+            <div class="form-example" style="text-align:center" >
+              <input type="submit" value="CREAR">
+              <input type="submit" value="INTERPRETAR">
+              <input type="submit" value="MODIFICAR">
+              <input type="submit" value="ELIMINAR">
+            </div>
+  
+          </form>
+        </div>
+        </div>
+    </main>
+    <footer>
+      <div class=""></div>
+    </footer>
+  </body>
+</router-outlet>

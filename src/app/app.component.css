@@ -1,0 +1,53 @@
+.Titulofrm{
+    left: 400px;
+    bottom:500px;
+    background-color:cornflowerblue;
+    height: 140px;
+    width: 1330px;
+}
+.Contenidofrm{
+    background-color:transparent;
+    height: 500px;
+    width: 1335px;
+}
+.Imagen{
+    position:relative;
+    left: 50px;
+    height: 500px;
+    width: 350px;
+}
+.Derecho{
+    position:relative;
+    left: 450px;
+    bottom:520px;
+    background-color:lightslategray;
+    height: 475px;
+    width: 875px;
+}
+.Titulo{
+    color:black;
+    position:relative;
+    left: 0%;
+    top: 20%;
+    text-align: center;
+    text-decoration:double;
+    text-transform:uppercase;
+    letter-spacing: 50px;
+}
+form.form-example {
+    display:contents;
+   
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 80px;
+}
+
+label {
+    padding-right: 100px;
+}
